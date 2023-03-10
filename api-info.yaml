@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: user:guest
   definition:
-    $openapi: https://raw.githubusercontent.com/amegiab/backstage-web-api/main/openapi.yaml
+    $openapi: https://github.com/amegiab/backstage-web-api/blob/main/openapi.yaml
