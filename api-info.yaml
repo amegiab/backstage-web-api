@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: backstage-web-api
+  description: Simple API for testing backstage API entity kind
+spec:
+  type: openapi
+  lifecycle: production
+  owner: user:guest
+  definition:
+    $openapi: https://raw.githubusercontent.com/amegiab/backstage-web-api/main/openapi.yaml
